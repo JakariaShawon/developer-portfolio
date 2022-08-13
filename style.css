@@ -29,10 +29,6 @@ section {
     width: 100%;
 }
 
-p {
-    border: 2px solid;
-}
-
 .Button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -45,4 +41,10 @@ p {
 .Top-Banner {
     background-image: url(Resource-from-PH/developer-portfolio-master/images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.Become-a-Developer {
+    background-image: url(Resource-from-PH/developer-portfolio-master/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
