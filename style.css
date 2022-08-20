@@ -16,7 +16,7 @@ h1 {
     color: darkblue;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -47,4 +47,36 @@ section {
     background-image: url(Resource-from-PH/developer-portfolio-master/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
+}
+
+.Experiences {
+    background-image: url(Resource-from-PH/developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-area {
+    width: 50%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#Research-assistant {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#Collaborator {
+    border-left: 10px solid;
+    border-image: linear-gradient(red, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
